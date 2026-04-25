@@ -1,0 +1,37 @@
+{
+  "slug": "soul-injector",
+  "name": "Soul Injector",
+  "displayName": "一键注入灵魂",
+  "version": "1.0.0",
+  "author": "Fangooer Team",
+  "contact": "fangooer@163.com",
+  "copyright": "© 2026 Fangooer Team. All rights reserved.",
+  "license": "MIT",
+  "tags": [
+    "soul-injector",
+    "proactive-agent",
+    "memory-system",
+    "wal-protocol",
+    "agent-architecture",
+    "skill-management",
+    "multi-agent",
+    "xiaoshan-team"
+  ],
+  "description": {
+    "zh": "让任何 AI Agent 从新生儿成长为有完整灵魂、记忆、智慧的成熟主 Agent。10层完整架构体系，含升级评估引擎、增量升级、灵魂定制向导。",
+    "en": "Transform any AI Agent from newborn to mature master agent with complete soul, memory and wisdom. 10-layer architecture system with upgrade assessment engine, incremental upgrade, and soul customization wizard."
+  },
+  "category": "system/architecture",
+  "coreFeatures": [
+    "新生儿模式：一键部署10层完整架构",
+    "升级评估引擎：8维度扫描生成3套方案",
+    "增量升级：保护用户已有配置不覆盖",
+    "灵魂定制向导：交互式定义Agent性格",
+    "WAL预写日志协议",
+    "工作缓冲区上下文保护机制",
+    "三层安全防御体系",
+    "技能注册表管理"
+  ],
+  "createdAt": 20260425,
+  "updatedAt": 20260425
+}

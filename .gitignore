@@ -1,0 +1,17 @@
+# 临时文件
+*.tmp
+*.log
+*.swp
+.DS_Store
+
+# 测试目录
+test-output/
+tests/
+test-*/
+
+# 打包文件
+*.tar.gz
+*.zip
+
+# 系统文件
+Thumbs.db
