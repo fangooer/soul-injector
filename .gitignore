@@ -1,17 +1,17 @@
 # 临时文件
 *.tmp
-*.log
+*.temp
 *.swp
+*.log
+
+# 环境变量
+.env
+.env.local
+
+# 操作系统文件
 .DS_Store
-
-# 测试目录
-test-output/
-tests/
-test-*/
-
-# 打包文件
-*.tar.gz
-*.zip
-
-# 系统文件
 Thumbs.db
+
+# 备份文件
+*.bak
+*.backup

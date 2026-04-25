@@ -8,29 +8,36 @@
 
 <div align="center">
 
-[![GitHub Release](https://img.shields.io/badge/Release-v1.0.0-brightgreen)](https://github.com/fangooer/soul-injector/releases)
+[![GitHub Release](https://img.shields.io/badge/Release-v1.1.0-brightgreen)](https://github.com/fangooer/soul-injector/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-blue)](https://openclaw.ai)
 [![Author: Fangooer Team](https://img.shields.io/badge/Author-Fangooer%20Team-purple)](mailto:fangooer@163.com)
 [![Tests: 43/43](https://img.shields.io/badge/Tests-43%2F43-brightgreen)](https://github.com/fangooer/soul-injector)
+[![Architecture: 13 Layers](https://img.shields.io/badge/Architecture-13%20Layers-orange)](https://github.com/fangooer/soul-injector)
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║                    SOUL INJECTOR v1.0.0                       ║
-║                10-LAYER COMPLETE AGENT ARCHITECTURE            ║
+║                    SOUL INJECTOR v1.1.0                       ║
+║              13-DIMENSION COMPLETE AGENT ARCHITECTURE          ║
 ╠══════════════════════════════════════════════════════════════╣
-║  Layer 10  🛡️  Task Fallback System                            ║
-║  Layer  9  📦  Skill Management System                        ║
-║  Layer  8  🧠  LanceDB Vector Memory                          ║
-║  Layer  7  👥  Sub-Agent Management Protocol                  ║
-║  Layer  6  🔑  API Key Management Standards                   ║
-║  Layer  5  🛡️  3-Layer Security Defense                       ║
-║  Layer  4  📦  Working Buffer Mechanism                       ║
-║  Layer  3  ⚡  WAL Pre-Write Log Protocol                     ║
-║  Layer  2  📖  Complete Operating System                      ║
-║  Layer  1  🧠  Soul Positioning & Boundaries                  ║
+║                     🔴 ADVANCED FUNCTION LAYER                 ║
+║  Layer 13  👥  Dual-Mode Team Collaboration (NEW)             ║
+║  Layer 12  📦  Skill Management Registry                       ║
+║  Layer 11  🛡️  3-Layer Security Defense (NEW)                 ║
+║                     🟡 CORE MECHANISM LAYER                    ║
+║  Layer 10  🔐  4-Level Task Fallback System (NEW)             ║
+║  Layer  9  💓  Heartbeat Active Value Creation                ║
+║  Layer  8  🛡️  Anti-Preinforcement Bias Mechanism (NEW)       ║
+║  Layer  7  📦  Working Buffer (Compression Protection)        ║
+║  Layer  6  📚  Memory System + Vector Database                ║
+║  Layer  5  ⚡  WAL Pre-Write Log Protocol                      ║
+║                     🟢 BASE CONFIGURATION LAYER                ║
+║  Layer  4  🔐  API Key Management System (NEW)                ║
+║  Layer  3  🔧  Tool Configuration & Credential Management      ║
+║  Layer  2  👤  User Profile & Preference Management            ║
+║  Layer  1  🧠  Soul Positioning, Principles & Boundaries       ║
 ╠══════════════════════════════════════════════════════════════╣
-║  by Fangooer Team | MIT License | fangooer@163.com           ║
+║  by Fangooer Team | MIT License | fangooer@163.com            ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -63,14 +70,14 @@ Soul Injector 是 **OpenClaw 生态首个完整 Agent 架构系统**。只需一
 
 ---
 
-### 🔥 Industry First: 8-Dimensional Assessment Engine / 行业首创：8维升级评估引擎
+### 🔥 Industry First: 12-Dimensional Assessment Engine (v1.1) / 行业首创：12维升级评估引擎
 
-Don't lose your existing configuration! Our intelligent engine:
-**不破坏现有配置！智能增量升级！**
+Don't lose your existing configuration! Our intelligent engine detects what you already have, and only injects what you're missing:
+**不破坏现有配置！智能检测现有架构，只补充缺失部分！**
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║              8-DIMENSIONAL ASSESSMENT ENGINE                   ║
+║             12-DIMENSIONAL ASSESSMENT ENGINE v1.1              ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
 ║  🧠 Soul Positioning    ████████████░░░░  80/100             ║
@@ -154,6 +161,45 @@ bash scripts/soul-config.sh
 ```
 
 5-step interactive wizard to craft the perfect soul for your Agent.
+
+---
+
+## 🧱 13-Layer Architecture Deep Dive / 13层架构深度解析
+
+Each layer has a complete implementation template in the `templates/` directory:
+每一层都有完整的实现模板，位于 `templates/` 目录下，按「基础配置→核心机制→高级功能」逻辑排序：
+
+| Layer | Name | Chinese | Category | Key Features | v1.1 Update |
+|-------|------|---------|----------|-------------|-----------|
+| **L1** | 🧠 Soul Positioning | 灵魂定位 | 🟢 Base Config | Character, Principles, Boundaries | ✅ Core |
+| **L2** | 👤 User Profile | 用户画像 | 🟢 Base Config | Preferences, Goals, Interaction patterns | ✅ Core |
+| **L3** | 🔧 Tool Configuration | 工具配置 | 🟢 Base Config | Tool inventory, Credential management, Usage guidelines | ✅ Core |
+| **L4** | 🔐 API Key Management | API 密钥管理 | 🟢 Base Config | ⭐ **NEW in v1.1** <br> Key rotation, Audit logging, Permission levels | ✅ **NEW** |
+| **L5** | ⚡ WAL Protocol | 预写日志 | 🟡 Core Mechanism | Critical info write first, Compression recovery | ✅ Core |
+| **L6** | 📚 Memory System | 记忆系统 | 🟡 Core Mechanism | Daily notes, Vector database, Long-term memory | ✅ Core |
+| **L7** | 📦 Working Buffer | 工作缓冲区 | 🟡 Core Mechanism | Context compression protection, Danger zone log | ✅ Core |
+| **L8** | 🛡️ Anti-Bias Mechanism | 反先入为主机制 | 🟡 Core Mechanism | ⭐ **NEW in v1.1** <br> 72h self-doubt, Adversarial audit, External verification first | ✅ **NEW** |
+| **L9** | 💓 Heartbeat Mechanism | 心跳机制 | 🟡 Core Mechanism | Active checks, Value creation, Self-improvement | ✅ Core |
+| **L10** | 🔐 4-Level Task Fallback | 四级任务兜底 | 🟡 Core Mechanism | ⭐ **NEW in v1.1** <br> Self-repair → Cross-role help → Scope reduction → Human escalation | ✅ **NEW** |
+| **L11** | 🛡️ 3-Layer Security Defense | 三层安全防御 | 🔴 Advanced Function | ⭐ **NEW in v1.1** <br> Injection detection, Data leak protection, Permission boundary | ✅ **NEW** |
+| **L12** | 📦 Skill Management Registry | 技能管理注册表 | 🔴 Advanced Function | Registry, Selection guidelines, Version control | ✅ |
+| **L13** | 👥 Dual-Mode Team Collaboration | 双模团队协作架构 | 🔴 Advanced Function | ⭐ **NEW in v1.1** <br> Light: Role workflow / Heavy: True isolated multi-agent | ✅ **NEW** |
+
+---
+
+### 💡 Core Design Principle: Never Overwrite v2.0!
+
+**Your existing files are sacred. No automatic modification EVER!**
+
+| Change Level | Operation Method | User Confirmation Requirement |
+|--------------|-----------------|------------------------------|
+| 🟢 Level 1: Add new template files | Only add independent new files to the directory you specify, never touch any existing files | Simple "yes/no" confirmation |
+| 🟡 Level 2: Suggest edits to existing core files | 1. Show exact content + insertion position<br>2. Show complete diff comparison<br>3. Explain the benefits of modification | You must manually copy-paste, or explicitly confirm "auto add" |
+| 🔴 Level 3: Major refactoring suggestions | 1. Complete refactoring plan explanation<br>2. Detailed pros/cons analysis<br>3. Rollback plan explanation | Must explicitly reply "Confirm execution", no default auto execution |
+
+**铁律：Under no circumstances will assess.sh / install.sh automatically write to any existing files! At most, we generate the content for you to copy!**
+
+**你的现有文件是神圣的。永远不会自动修改任何文件！**
 
 ---
 
